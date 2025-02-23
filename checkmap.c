@@ -1,6 +1,6 @@
 #include "so_long.h"
 
-char	*read_lines(char *file_name)
+char	**read_lines(char *file_name)
 {
 	char	**lines;
 	int		i;
@@ -25,7 +25,7 @@ int	are_all_lines_have_same_len(char **file_name)
 	}
 }
 
-int	check_map_is_correct(char *file_name)
+int	check_map_is_correct(int fd, char *file_name)
 {
-
+	
 }

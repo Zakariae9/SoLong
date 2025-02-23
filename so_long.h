@@ -1,4 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "get_next_line/get_next_line.h"
 
-int	check_map_is_correct(char *file_name);
+int	check_map_is_correct(int fd, char *file_name);

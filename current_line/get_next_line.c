@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zaboumei <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: zaboumei <zaboumei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 15:25:29 by zaboumei          #+#    #+#             */
-/*   Updated: 2024/12/04 20:57:56 by zaboumei         ###   ########.fr       */
+/*   Updated: 2025/02/26 15:05:01 by zaboumei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ static char	*line(char **words)
 	int		pos;
 	char	*a_line;
 	char	*tmp;
-
+	
 	pos = pos_newline(*words);
 	if (pos == -1)
 	{

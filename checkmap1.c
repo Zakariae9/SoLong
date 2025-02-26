@@ -53,11 +53,11 @@ int are_components_correct(char **lines)
 {
     if (is_one_of_components_missing(lines))
         return (0);
-	if (count_char_duplicates(lines, 'E') != 1)
+	else if (count_char_duplicates(lines, 'E') != 1)
 		return (0);
-	if (count_char_duplicates(lines, 'C') < 1)
+	else if (count_char_duplicates(lines, 'C') < 1)
 		return (0);
-	if (count_char_duplicates(lines, 'P') != 1)
+	else if (count_char_duplicates(lines, 'P') != 1)
 		return (0);
 	return (1);
 }

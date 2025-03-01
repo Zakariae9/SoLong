@@ -18,5 +18,6 @@ int     is_the_last_char_equal1(char *line);
 int     does_the_line_have_only1(char *line);
 char	*free_2d_a(char **str2a);
 int		num_lines(char *file_name);
+char	*join(char **s);
 
 # endif

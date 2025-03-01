@@ -9,23 +9,20 @@ int is_one_of_components_missing(char **lines)
 
     i = - 1;
     components = "10ECP";
-    while (lines[++i])
+    while (components[++i])
     {
-        j = 0;
-        while (lines[i][j])
+		j = -1;
+		is_there = 0;
+        while (lines[++j])
         {
-            if (!ft_strchr(lines[i], components[i]))
-                is_there = 0;
-            else
-            {
-                is_there = 1;
-                break ;
-            }
+            if (ft_strchr(lines[j], components[i]))
+			{
+				is_there = 1;
+				break ;
+			}
         }
-        if (!is_there)
-            return (1);
-    }
-    return (0);
+   	}
+	return (!is_there);
 }
 
 int count_char_duplicates(char **lines, char c)
@@ -41,8 +38,8 @@ int count_char_duplicates(char **lines, char c)
 		j = 0;
 		while (lines[i][j])
 		{
-			if (ft_strchr(lines[i], c))
-				counter++;	
+			if (lines[i][j++] == c)
+				counter++;
 		}
 		i++;
 	}

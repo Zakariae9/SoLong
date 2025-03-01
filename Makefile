@@ -1,4 +1,4 @@
-SRCS = check_is_map_surrounded_by_walls.c checkmap1.c checkmap0.c main.c free.c
+SRCS = check_is_map_surrounded_by_walls.c checkmap1.c checkmap0.c main.c free.c join.c
 
 SRCS_LIBFT = libft1/ft_isalpha.c libft1/ft_isdigit.c libft1/ft_isalnum.c libft1/ft_isascii.c libft1/ft_isprint.c\
 libft1/ft_strlen.c libft1/ft_memset.c libft1/ft_bzero.c libft1/ft_memcpy.c libft1/ft_memmove.c libft1/ft_strlcpy.c libft1/ft_strlcat.c\

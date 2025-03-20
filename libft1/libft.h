@@ -6,7 +6,7 @@
 /*   By: zaboumei <zaboumei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 10:37:10 by zaboumei          #+#    #+#             */
-/*   Updated: 2025/02/26 17:37:22 by zaboumei         ###   ########.fr       */
+/*   Updated: 2025/03/17 14:31:13 by zaboumei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char *s, int fd);
 void				ft_putendl_fd(char *s, int fd);
 void				ft_putnbr_fd(int n, int fd);
+int					ft_strncmp(const char *s1, const char *s2, size_t n);
 
 typedef struct s_list
 {

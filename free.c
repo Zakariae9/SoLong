@@ -1,6 +1,6 @@
 #include "so_long.h"
 
-char	*free_2d_a(char **str2a)
+char	**free_2d_a(char **str2a)
 {
 	int	i;
 

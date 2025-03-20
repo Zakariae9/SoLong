@@ -8,7 +8,7 @@ int is_one_of_components_missing(char **lines)
     char    *components;
 
     i = - 1;
-    components = "10ECP";
+    components = "1ECP";
     while (components[++i])
     {
 		j = -1;
